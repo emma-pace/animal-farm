@@ -36,7 +36,6 @@ section {
     max-width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
@@ -78,10 +77,38 @@ header img {
     height: var(--header-height);
 }
 
-p {
-    margin: var(--gutter);
+#cat {
+    border: 1px black solid;
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 0;
+
 }
-  
+
+#dog {
+    border: 1px black solid;
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 25;
+}
+
+#horse {
+    border: 1px black solid;
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 0;
+    top: 25;
+}
+
 footer {
     position: fixed;
     width: 100%;

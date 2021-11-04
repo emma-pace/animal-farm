@@ -16,10 +16,16 @@
 10) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 11) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
+## HTML Setup
+1) 3 images
+-Why? It tells us when to play animal sound
+-How? "myimage.addEventListener('click', () =: {});
 
-## To Run Cypress Tests
-* `npm install`
-* `npm test`
-* Cypress will open -- you should then click "run <#> integration spec(s)"
-    ![](cypress.png)
-* Make sure all tests pass
+2) some way of doing audio (<audio src="sdf"/>)
+-Why? To play the sound on click
+-How? We grab audio tag from DOM (like other html elements) and then we do this:) dogSound.play{};
+
+## Event
+On click:
+Play appropriate file.
+Call the .play method on appropriate file.
